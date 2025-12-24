@@ -36,12 +36,12 @@ To help you test the program, here is a sample input and output and the expected
 
 ### **Sample Input Data:**
 
-<img width="3050" height="2274" alt="temp-20-43-31-image_upscayl_4x_upscayl-standard-4x" src="https://github.com/user-attachments/assets/c912a289-74a7-4332-8f8f-0f7ea6c89557" />
+<img width="100%"  alt="temp-20-43-31-image_upscayl_4x_upscayl-standard-4x" src="https://github.com/user-attachments/assets/c912a289-74a7-4332-8f8f-0f7ea6c89557" />
 
 ### **Sample Output Data:**
 
-<img width="2646" height="2160" alt="Screenshot 2025-12-24 204710_upscayl_4x_upscayl-standard-4x" src="https://github.com/user-attachments/assets/16ff8cff-3e43-432f-87d8-182f256e9819" />
-<img width="2450" height="21450" alt="temp-20-48-13-image_upscayl_4x_upscayl-standard-4x" src="https://github.com/user-attachments/assets/802e1160-fa94-4b74-ac63-aa844f0b1371" />
+<img width="100%"  alt="Screenshot 2025-12-24 204710_upscayl_4x_upscayl-standard-4x" src="https://github.com/user-attachments/assets/16ff8cff-3e43-432f-87d8-182f256e9819" />
+<img width="100%"  alt="temp-20-48-13-image_upscayl_4x_upscayl-standard-4x" src="https://github.com/user-attachments/assets/802e1160-fa94-4b74-ac63-aa844f0b1371" />
 
 
 

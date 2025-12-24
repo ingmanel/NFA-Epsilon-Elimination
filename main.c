@@ -7,12 +7,13 @@ THE TEAM :
     *   Nadjah Belgouchi     SEC G1
 */
 
+// --- Standard libraries ---
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
 
-// Define constants for maximum values to simplify array allocation.
+// --- Define constants for maximum values to simplify array allocation ---
 #define MAX_STATES 20
 #define MAX_SYMBOLS 10
 
@@ -411,3 +412,4 @@ void display_New_Automaton() {
     printf("------------------------------------\n");
 
 }
+

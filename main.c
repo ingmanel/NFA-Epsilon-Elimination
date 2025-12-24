@@ -1,7 +1,7 @@
 /*
-----------
-THE TEAM :
-----------
+------------------
+THE TEAM  Members:
+------------------
     *   MALEG MANEL          SEC G2
     *   Wissal Hadjira       SEC G2
     *   Nadjah Belgouchi     SEC G1
@@ -49,8 +49,8 @@ void find_closure_recursive(int state, int* closure);
 //THE MAIN FUNCTION OF OUR PROGRAM********************************************************************************
 //
 int main() {
-    printf("\n-- Welcome to the TP of **Eliminating epsilon-Transitions from an NFA** : --");
-    printf("\n**HINT:u can use the information of EXO3 TD02 for testing:\nNum of states: 6 | Alphabet: ab\nInitial state: 0 | Number of final states: 1\nFinal states: 5  |  Number of transitions : 10\ntransitions (from_state symbol to_state):\n0 e 1\n0 e 2\n1 a 3\n1 b 1\n2 a 2\n2 b 4\n3 b 3\n3 e 5\n4 a 4\n4 e 5\n");
+    printf("\n-- Welcome to the TP of **Eliminating epsilon-Transitions from an NFA** : --\n");
+    printf("\n**HINT: you can use the information of **EXO3 TD02** for testing:\nNum of states: 6 | Alphabet: ab\nInitial state: 0 | Number of final states: 1\nFinal states: 5  |  Number of transitions : 10\ntransitions (from_state symbol to_state):\n0 e 1\n0 e 2\n1 a 3\n1 b 1\n2 a 2\n2 b 4\n3 b 3\n3 e 5\n4 a 4\n4 e 5\n");
     printf("\n\n");
     while(1){
         char command[10];
@@ -62,7 +62,7 @@ int main() {
         }
 
         if (strcmp(command, "exit") == 0) {
-            printf("\nExiting program... Goodbye!,see u soon\n\n");
+            printf("\nExiting program... Goodbye!\n\n");
             break;
         }
         else if (strcmp(command, "run") == 0) {
@@ -122,7 +122,7 @@ void read_NFA() {
 //
 
    while (1) {
-        printf("Enter the alphabet (max %d symbols, without 'e', e.g: ab): ", MAX_SYMBOLS);
+        printf("Enter the alphabet ( e.g: ab, max %d symbols, without 'e'): ", MAX_SYMBOLS);
         scanf("%s", alphabet);
         num_symbols = strlen(alphabet);
 
@@ -213,7 +213,7 @@ void read_NFA() {
     
 //
 
-printf("Enter transitions (from_state symbol to_state e.g: 0 e 1), use 'e' for epsilon:\n");
+printf("Enter transitions (e.g: 0 e 1, from_state symbol to_state), \nuse 'e' for epsilon:\n");
 // For each transition entered by the user
     for (int i = 0; i < num_trans; i++) {
         int from, to;

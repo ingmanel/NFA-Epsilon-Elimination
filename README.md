@@ -7,7 +7,7 @@ It provides a tool to convert a Non-deterministic Finite Automaton with Epsilon 
 
 ##  ** 👥 Team Members **
 
-* **MALEG MANEL** - SEC G2
+* **Manel Maleg** - SEC G2
 * **Wissal Hadjira** - SEC G2
 * **Nadjah Belgouchi** - SEC G1
 

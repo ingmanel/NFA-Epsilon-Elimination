@@ -2,7 +2,7 @@
 
 ##  ** Project Overview **
 
-This project is a C implementation for the **Compilation** course.
+This project is a C implementation for the **Compiler Design** course.
 It provides a tool to convert a Non-deterministic Finite Automaton with Epsilon transitions (ε-NFA) into an equivalent NFA without Epsilon transitions.
 
 ##  ** 👥 Team Members **
@@ -21,10 +21,10 @@ It provides a tool to convert a Non-deterministic Finite Automaton with Epsilon 
 ##  ** 🚀 How to Run **
 
 1. **Compilation**: Use the GCC compiler to build the executable.
-   Download the file `compilation.c` and in the terminal input:
+   Download the file `main.c` and in the terminal input:
 
    ```bash
-   gcc compilation.c -o nfa_converter
+   gcc main.c -o nfa_converter
 2. **Execution**: Run the generated program.
    
    ```bash
